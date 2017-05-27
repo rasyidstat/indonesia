@@ -6,7 +6,7 @@ This package includes things related to Indonesia. For the initial development, 
 - Jakarta: 'kecamatan', 'kelurahan' and 'RW' level
 
 For Indonesia map, the data is get from [GADM](http://www.gadm.org/) and for Jakarta map, 
-the data is get from [Jakarta Smart City](https://smartcity.jakarta.go.id).
+the data is get from [Jakarta Smart City](http://smartcity.jakarta.go.id).
 
 # Installation
 
