@@ -30,17 +30,25 @@ hai()
 
 `id_map` is the function that return sf spatial data frame. It contains two parameters: region and level. 
 For the initial development, it only contains two regions: "indonesia" and "jakarta".
-"indonesia" consists of two geographical levels such as "provinsi" and "kota".
-"jakarta" consists of three geographical levels such as "kecamatan", "kelurahan" and "rw".
+
+- "indonesia" consists of two geographical levels such as "provinsi" and "kota".
+- "jakarta" consists of three geographical levels such as "kecamatan", "kelurahan" and "rw".
 
 ``` r
 library(sf)
 library(indonesia)
+
+# get indonesia map for 'provinsi' level
 indonesia_provinsi <- id_map("indonesia", "provinsi")
+
+# get indonesia map for 'kota' level
 indonesia_kota <- id_map("indonesia", "kota")
+
+# get jakarta map for 'kelurahan' level
 jakarta_kelurahan <- id_map("jakarta", "kelurahan")
-#> head(jakarta_kelurahan)
-Simple feature collection with 6 features and 8 fields
+
+head(jakarta_kelurahan)
+#> Simple feature collection with 6 features and 8 fields
 geometry type:  POLYGON
 dimension:      XY
 bbox:           xmin: 106.7928 ymin: -6.373226 xmax: 106.92 ymax: -6.331914
