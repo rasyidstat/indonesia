@@ -1,0 +1,10 @@
+Package: indonesia
+Type: Package
+Title: R Indonesia Package
+Version: 0.1.0
+Author: Rasyid Ridha
+Maintainer: Rasyid Ridha <rasyidstat@gmail.com>
+Description: R Indonesia package containing Indonesia spatial data, Indonesia national holidays and many awesome things related to Indonesia
+License: Rasyid Ridha
+Encoding: UTF-8
+LazyData: true
